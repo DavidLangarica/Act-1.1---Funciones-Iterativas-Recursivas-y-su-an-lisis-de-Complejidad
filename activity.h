@@ -35,11 +35,9 @@ unsigned int sumaIterativa(unsigned int n) {
 // @return	The result of the addition from 1 to n.
 /* @Complexity	Según la notación Big O, tendría una complejidad O(n), ya que en
  * este caso solo se llama una vez a la función recursiva y la variable de
- * control 'n' disminuye en un valor constante de 1.
- */ == ==
-    == == == == == == == == == == == == == == == == == == == == == == == == ==
-    == == == == ==
-    = unsigned int sumaRecursiva(unsigned int n) {
+ * control 'n' disminuye en un valor constante de 1. */
+// =================================================================
+unsigned int sumaRecursiva(unsigned int n) {
   if (n <= 1)
     return 1;
   return n + sumaRecursiva(n - 1);
@@ -52,11 +50,9 @@ unsigned int sumaIterativa(unsigned int n) {
 // @return	The result of the addition from 1 to n.
 /* @Complexity	Según la notación Big O, tendría una complejidad O(1), porque en
  * este caso solo es necesario 1 paso constante para obtener el resultado de la
- * suma iterativa.
- */ == ==
-    == == == == == == == == == == == == == == == == == == == == == == == == ==
-    == == == == ==
-    = unsigned int sumaDirecta(unsigned int n) {
+ * suma iterativa. */
+ // =================================================================
+unsigned int sumaDirecta(unsigned int n) {
   int suma = (n * (n + 1)) / 2;
   return suma;
 }
