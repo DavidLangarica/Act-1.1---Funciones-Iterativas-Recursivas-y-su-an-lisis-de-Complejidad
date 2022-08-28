@@ -17,7 +17,7 @@
 /* @Complexity	Según la notación Big O, tendría una complejidad O(n), pues
  * esta suma depende linealmente del elemento 'n' de la función, dicha 'n'
  * define cuantas veces se estará implementando el ciclo for en la suma, ya que
- * la variable de control 'i' depende precisamente de la variable 'n' */
+ * la variable de control 'i' depende precisamente de la variable 'n' para dicha acción. */
 // =================================================================
 unsigned int sumaIterativa(unsigned int n) {
   int suma = 0;
@@ -50,7 +50,7 @@ unsigned int sumaRecursiva(unsigned int n) {
 // @return	The result of the addition from 1 to n.
 /* @Complexity	Según la notación Big O, tendría una complejidad O(1), porque en
  * este caso solo es necesario 1 paso constante para obtener el resultado de la
- * suma iterativa. */
+ * suma. */
  // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
   int suma = (n * (n + 1)) / 2;
